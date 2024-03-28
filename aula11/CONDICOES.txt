@@ -1,0 +1,16 @@
+condicoes simples = if (condicao) { TRUE
+
+
+}
+
+condicao composta = if (condicao) { TRUE
+
+
+} else { FALSE
+
+
+}
+
+
+
+
