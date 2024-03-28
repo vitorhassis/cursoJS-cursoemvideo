@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiros passos com DOM</title>
+    <style>
+        body {
+            background: rgb(0, 140, 255);
+            color: white;
+            font: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>iniciando estudos com DOM </h1>
+    <p>aq vai o resultado</p>
+    <p>aprendendo a usar <strong>DOM</strong> em JavaScript.</p>
+    <div name="msg">clique em mim</div>
+    <script>
+        var corpo = window.document.body
+        var p1 = window.document.getElementsByTagName('p') [1] //aq criamos uma variavel, com o getelementS tagname, ou seja, pelo nome da tag -p- e tivemos que indicar qual era com o numero, pq ela esta no plural, ou seja, getElementS. logo abaixo, 
+        p1.style.background ='green'
+        
+        
+        //conhecimentos la da logica de programacao. innerText eh o texto da tag
+
+         //usar inner.HTML ele vem ja com a formatacao do texto original. ele vai vir com o strong nesse caso, por ex
+
+         /*var d = window.document.getElementById('msg')  
+         aq estamos selecionando a div, pelo id que criamos. msg.
+        
+         d.style.background = 'green'
+         d.innerText= 'ESTOU AGUARDANDO....'
+         */
+        
+         //window.document.getElementById('msg').innerText='ola' uma forma de alterar o texto tambem. mas no exemplo a cima, criamos uma variavel
+
+         var d =window.document.getElementsByName('msg') [0] //coloca numero qnd for plural. elementS. pra identificar qual elementbyname eh
+         d.innerText= 'oiiii'
+
+    </script>
+    
+</body>
+</html>

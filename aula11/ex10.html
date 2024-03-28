@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOGOS</title>
+</head>
+
+<body>
+    <h1>RESPONDA</h1>
+    SEU JOGO PREFERIDO EH <input type="text" name="txt" id="txt">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="resultado">
+
+    </div>
+    <script>
+        function calcular() {
+            var txtl = window.document.getElementById('txt') //input text
+            var res = window.document.getElementById('resultado')
+            var game = (txtl.value)
+            res.innerHTML = `<p>seu game preferido é ${game}</p>`
+            if (game == "cs2") {
+                res.innerHTML += `<p>portanto, voce é um <strong>HOMEM</strong></p>`
+            } else {
+                res.innerHTML = `<p>seu game preferido é ${game}</p>`
+                res.innerHTML += `<p>portanto, voce é <strong>VIADO</strong></p>`
+            }
+        }
+        //explicacao pra relembrar e entender no ex 09.html
+
+
+
+
+
+
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+DOM = O DOM é uma representação orientada a objetos da página da web, que pode ser modificada com uma linguagem de script como JavaScript;
+
+ARVORE DOM
+
+WINDOW - LOCATION; DOCUMENT;HISTORY
+
+DOCUMENT - HTML E BODY;
+
+HTML - META TITLE / BODY - H1, P DIV;
+
+----------------------------------------
+
+vc pode modificar algo em js, direto, ou criando por ex um id numa div, uma class, um name. ai depende qual vc for usar. ex = id vc usa 
+window.document.getElementById('-')';
+
+eh possivel tbm selecionar por um SELECTOR. window.document.querySelector('div#--') ou ('div.--');
+
+relembre: ID eh # / CLASS eh . (pontinho);

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>eventos DOM</title>
+    <style>
+        div#area {
+            font: normal 20pt Arial;
+            background: rgb(0, 36, 0);
+            color: white;
+            width: 200px;
+            height: 200px;
+            line-height: 200px; /*esse line height eh a altura do texto, mais ou menos*/
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area">
+        interaja...
+    </div>
+
+    <script>
+    var a = window.document.getElementById('area') //scopo global, aq fora ele serve para todas as function's
+    a.addEventListener ('click', clicar) 
+    a.addEventListener ('mouseenter', entrar)
+    a.addEventListener ('onmouseout', sair)
+
+    //(usamos os metodos ONCLICK q eh para qnd vc clicar na div, aparecer um texto; ONMOUSEENTER qnd o leitor do mouse entrar na div; ONMOUSEOUT pra qnd vc tirar o cursor do mouse da div, mudar o texto;) lendo isso fica "ao clicar na minha div, eu vou criar um obj chamado 'a', o qual faz ligacao do objeto dentro do js com o elemento de id area que ta dentro do HTML, e esse objeto vai mudar o texto para clicou/entrou/saiu"//
+
+        function clicar() {
+            a.innerText = 'clicou!'
+            a.style.background = 'blue'
+        }
+        function entrar() {
+            a.innerText = 'entrou!'
+        }
+        function sair() {
+            a.innerText = 'saiu!'
+            a.style.background = 'green'
+            
+            
+        }
+
+        //lembrando q o js n sinaliza aq no vscode onde esta o erro, vc da um spec la na pag do chrome, e vai aparecer la se tiver um erro, onde esta
+
+    </script>
+    
+</body>
+</html>

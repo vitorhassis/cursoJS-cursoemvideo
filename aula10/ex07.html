@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>somando numeros</title>
+    <style>
+        body {
+            font: normal 18pt arial;
+        }
+        input {
+            font: normal 18pt Arial;
+            width: 100px;
+        }
+        div#res {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Somando valores</h1>
+    <input type="number" name="txt1" id="txt1"> +
+    <input type="number" name="txt2" id="txt2">
+    <input type="button" value="Somar" onclick="somar()">
+    <div id="res">resultado</div>
+    <script>
+    function somar() {
+        var tn1 = window.document.getElementById ('txt1')
+        var tn2 = window.document.getElementById ('txt2') //aq criamos dois objetos para as CAIXAS
+        var res = window.document.getElementById('res')
+        var n1 = Number(tn1.value)
+        var n2 = Number(tn2.value)
+        var s = n1 + n2
+        res.innerHTML = s
+        res.innerHTML = `A soma entre ${n1} e ${n2} eh igual a <strong>${s}</strong>`
+    }       
+
+ 
+    </script>
+    
+</body>
+</html>

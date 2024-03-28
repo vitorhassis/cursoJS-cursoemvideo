@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAÍS</title>
+    <h1>RESPONDA</h1>
+    PAÍS: <input type="text" name="txtpa" id="txtpa">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="resultado">
+
+    </div>
+    <script>
+        function calcular() {
+            var txtl = window.document.getElementById('txtpa') //transformamos o obj (a caixa) em var - (vai ter q fazer uma var pra pegar tbm o valor desse obj, uma vez que a caixa sera preenchida com uma informacao (nesse caso, o país))
+            var res = window.document.getElementById('resultado') //transformamos o obj em var (a div)
+            var pa = (txtl.value) //transformamos o suposto valor do obj em var
+            res.innerHTML = `<P>${pa} é o país em que voce mora!</P>`
+            if (pa == "brasil") {
+                res.innerHTML += `<p>voce é <strong>BRASILEIRO!</strong></p>`
+            } else {
+                res.innerHTML = `<P>${pa} é o país em que voce mora!</P>`
+                res.innerHTML += `<p>você é <strong>ESTRANGEIRO</strong></p>`
+            }
+
+            //pelo oq eu entendi, vc tem q criar variáveis (e atribuir valores a elas) de acordo com os id's que vc tiver. nesse caso, temos 2 id's caixas, sendo uma delas com valor (o input text, ja que ele sera preenchida). o primeiro seria o input do tipo texto, que nomeamos de "txtpa" (q eh um obj q tem valor dentro) e o segundo seria a div, que nomeamos de "resultado". a terceira variavel, eh a do valor do objeto input text. Depois, escrevemos com res.innerHTML ("res" pq eh o nome da variavel da div, e HTML pq podemos usar strong, p, etc) para escrever, tal. Usamos o if e o else, lembrando que usamos ali o "+=" para as duas frases aparecerem somadas em sequencia. OBS= vc transforma oq for necessario de fora em variavel para trabalhar dentro da function, apartir do momento que oq eh de fora for transformado em variavel, vc vai trabalhar apenas com as variaveis de dentro, nao com sua identificacao de fora.
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>
