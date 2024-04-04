@@ -1,43 +1,40 @@
 @charset "UTF-8";
 
 * {
-margin: 0;
-padding: 0;
+margin: 0px;
+padding: 0px;
 }
 
 
-
 body {
-    background-color: rgb(0, 162, 255);
+    background: rgb(0, 162, 255);
     font: normal 15pt arial;
 }
 
 header {
     color: white;
     text-align: center;
-    padding: 10px;
-    width: 100%; 
-    display: flex;/*width 100% e margin auto p centralizar independente do tamanho, pode ser que seja preciso colocar display flex*/
+    width: 100%;
     margin: auto;
-
+    display: flex
 }
 
 section {
-    background-color: rgba(255, 255, 255, 0.822);
+    background: white;
     border-radius: 10px;
-    padding: 10px;
-    width: 30vw;
-    height: 50vh;
+    padding: 40px;
+    width: 500px;
+    height: 350px;
     margin: auto;
-    box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.411);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
     
+
 }
 
-div {
-    text-align: center;
-    padding: 10px;
-    
+section > div#res > img#foto {
+    margin-top: 35px;
 }
+
 
 footer {
     font-size: 1rem;
@@ -57,7 +54,6 @@ footer a {
 }
 
 footer a:hover {
-    color: rgb(58, 57, 55);
+    color: rgb(255, 188, 111);
     text-decoration: underline;
 }
-
