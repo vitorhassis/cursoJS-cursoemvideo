@@ -16,25 +16,36 @@ header {
     text-align: center;
     width: 100%;
     margin: auto;
-    display: flex
+    display: flex;
+}
+
+#h1txt {
+    width: 100vw;
+    text-align: center;
+    margin: auto;
 }
 
 section {
     background: white;
     border-radius: 10px;
-    padding: 40px;
-    width: 500px;
-    height: 350px;
+    padding: 20px;
+    width: 30vw;
+    height: 40vh;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
+}
+
+#bt {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#foto {
+    margin-left: 180px;
+    display: flex;
+    padding-top: 15px;
     
-
 }
-
-section > div#res > img#foto {
-    margin-top: 35px;
-}
-
 
 footer {
     font-size: 1rem;
