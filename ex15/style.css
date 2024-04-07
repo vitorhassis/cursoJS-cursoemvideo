@@ -1,12 +1,8 @@
 @charset "UTF-8";
+
 * {
 margin: 0;
 padding: 0;
-}
-
-#txth1 {
-    margin: auto;
-    text-align: center;
 }
 
 
@@ -16,12 +12,15 @@ body {
     font: normal 15pt arial;
 }
 
+#txth1 {
+    margin: auto;
+    text-align: center;
+}
+
 header {
     color: white;
     text-align: center;
-    padding: 10px; 
-    /*criei uma id pro h1 e coloquei aquelas duas config ali. se colocar width 100vw aq, ia quebrar*/
-    
+    padding: 10px;
     display: flex;/*width 100% e margin auto p centralizar independente do tamanho, pode ser que seja preciso colocar display flex*/
     margin: auto;
 
@@ -30,22 +29,36 @@ header {
 section {
     background-color: rgba(255, 255, 255, 0.822);
     border-radius: 10px;
-    padding: 30px;
-    width: 40vw;
+    padding: 10px;
+    width: 50vw;
     height: 50vh;
     margin: auto;
     box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.411);
     
 }
 
-#imagem {
-    margin-top: 20px;
-}
-
 div {
     text-align: center;
     padding: 10px;
     
+}
+
+#res {
+    width: 50vw;
+    text-align: center;
+    margin: auto;
+
+    
+}
+
+#foto {
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#tab {
+    margin: 10px;
 }
 
 footer {

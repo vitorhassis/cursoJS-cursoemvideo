@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de idade</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="txth1">Verificador de idade</h1>
+    </header>
+    <section>
+        <div>
+            <p>Ano de Nascimento:
+                <input type="number" name="txtano" id="txtano" min="0">
+            </p>
+            <div id="tab">
+                <p>Sexo:
+                    <input type="radio" name="radsex" id="masc" checked>
+                    <!--- colocamos o name igual, pq se colocarmos diferente, vc consegue marcar as duas alternativas juntas. e esse nao eh o obj, o obj eh vc marcar um OU o outro. nao um E o outro-->
+                    <label for="masc">Masculino</label>
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminino</label>
+                </p>
+            </div>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados acima para ver o resultado!
+        </div>
+    </section>
+    <footer>
+        <p> <strong>criado por</strong> <a href="https://www.linkedin.com/in/vitor-assis-a365972b0/" target="_blank">
+                <strong>Vitor
+                    Assis</strong></a>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
