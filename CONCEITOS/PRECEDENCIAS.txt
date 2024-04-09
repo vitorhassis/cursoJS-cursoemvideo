@@ -59,6 +59,20 @@ EX: n++ ou ++n = n+1;
 
 EX: var num1 = 4;
 num1++;
+
+ATRIBUICAO DE VARIAVEIS (somar duas variaveis)
+-vc pode querer q duas variaveis se somem. ficara assim: (ex ta meio q pela metade, mas so pra entender. fizemos um ex q utiliza exatamente esse tipo de soma)
+
+var Number(x.value)
+var Number(y.value)
+
+x+= y (vai somar os numeros que possivelmente serao atribuidos a var x e y)
+x-= y (vai subtrair os numeros que possivelmente serao atribuidos a var x e y)
+x*= y (vai multiplicar os numeros que possivelmente serao atribuidos a var x e y)
+
+SITE DE REFERENCIA: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators
+
+=)
 -------------------------------------------
 CONCEITOS BASICOS PRA REVISAR
 - console.log ('oi') = vai aparecer oq vc colocou entre 'x'. agora caso vc queira interpolar variáveis, ou seja ...

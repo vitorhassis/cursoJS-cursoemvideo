@@ -5,7 +5,8 @@ ESTRUTURAS DE CONTROLE
 2-condição = teste logico com duas possibilidades (verdade ou falso), IF e ELSE
 --------------------------------------
 3-REPETICOES/LAÇOS =  faz um looping e testa a condicao varias vezes, testando-a enquanto ela se manter verdadeira 
-*WHILE = ENQUANTO
+
+*WHILE = ENQUANTO*
 
 function comerpizza() {
 comerfatia()
@@ -31,13 +32,76 @@ function comerpizza () {
  
 }
 
+//////////////
 
-
-
-3.1- "do" = FAÇA
+3.1-*DO = FAÇA*
 
  do {                            -(aq ele primeiro executa o bloco, depois ele testa) - ESTRUTURA DE REPETICAO COM TESTE LOGICO NO FINAL
 
 
 }  while (condicao)
---------------------------------------
+
+//////////////
+
+3.2- *FOR*
+ vamos comparar como seria um "for" no codigo que usamos de exemplo o while:
+
+(WHILE) 
+var c=1
+  while (c<=10) {
+                                -"ENQUANTO C FOR MENOR OU IGUAL A DEZ, PEGA C E SOMA MAIS UM, E ASSIM SUCESSIVAMENTE ATE CHEGAR NO LIMITE DA CONDICAO, DAI
+                                  O FLUXO SAI"
+
+c++
+}
+//////////////
+
+-MESMO CODIGO E FUNCIONALIDADE, mas agora usando o codigo "for":
+ 
+(FOR) - o bom do for eh q vc cria tres "condicoes" ( x ; x ; x) { } e fica menos coisas dentro do objeto! Vale ressaltar que as "condicoes"/concomitancias
+será na mesma ordem do q vc faria usando WHILE ou DO. segue o exemplo - 
+
+for (  c=1; c<=10; c++) {
+
+                                -QUANDO TEMOS OS LIMITES DAS NOSSAS EXECUÇÕES, ESSA OPÇÃO DE FOR FICA MAIS INTERESSANTE E EFICAZ
+                          
+}
+//////////////
+
+var c = 1;
+while (c <= 5) {
+  console.log(c);
+  c++; (c = c+1 == c++)
+}
+
+ poderia fazer tbm com DO, e ficaria: 
+
+do {
+    console.log(c)
+    c++
+} while (c<=5)
+
+
+ poderia fazer tambem com FOR, e ficaria:
+for (c = 1; c <= 5; c++) {
+  console.log(c);
+} 
+
+////////////////
+
+DEBUGGING - como conferir passo a passo a utilização/funcionalidade dessas estruturas de repetições acima:
+1- vai em "run" la em cima, e em "start debugging
+2- escolha um breakpoint, ou seja, da onde ele vai iniciar o debugging, e de um "run and debug".
+3- na aba "call stack", vc vai perceber uns botaos de continuar, parar, etc. o botaozin "step over" faz ele fazer executar apartir do breakpoint selecionado
+em vermelho. apartir disso, vc pode ir clicando Alt+f10 para ir dando continuidade, e ele vai executando de acordo com oq vc for dando alt+f10, na parte de
+debug console (f8). la, ele vai fazer jus a ideia de executar e repetir enquanto obedecer a condição proposta e, apartir do momento em que não for mais de
+acordo, o fluxo pula fora do objeto.
+
+
+
+
+
+
+
+
+

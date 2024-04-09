@@ -1,0 +1,68 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+
+#txth1 {
+    color: white;
+    text-align: center;
+    padding: 10px
+    
+    
+    
+}
+
+
+body {
+    background: #00b7ff;
+    font: normal 14pt arial;
+}
+
+section {
+    margin: auto;
+    background: white;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.555);
+}
+
+section > .forms {
+    font: normal 13pt arial;
+}
+
+#res {
+    font: normal 14pt arial;
+    margin-top: 10px;
+}
+
+.forms {
+    
+    margin: 10px;
+    padding: 1px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    margin: auto;
+    font-style: italic;
+    margin: 10px;
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(255, 153, 1);
+    text-decoration: underline;
+}
