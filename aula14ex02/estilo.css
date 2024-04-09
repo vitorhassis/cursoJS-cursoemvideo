@@ -10,6 +10,10 @@ body {
     font: normal 15pt arial;
 }
 
+#txtn {
+    margin: 10px;
+}
+
 #txth1 {
     padding: 10px;
     color: white;
@@ -19,8 +23,8 @@ body {
 
 #sec {
     margin: auto;
-    width: 60vw;
-    height: 30vh;
+    width: 20vw;
+    height: 20vw;
     background: white;
     border-radius: 10px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.432);
