@@ -1,0 +1,67 @@
+SINAIS DE OPERAÇÕES
+
+* eh multiplicacao
+
+% eh divisao com numero inteiro sobrando 1;
+
+/ eh divisao;
+
+n++ ou ++n = n+1;
+
+
+5>2;
+
+4<5;
+
+8>=2;
+
+8<=10;
+
+8>=8;
+
+5=5? sim;
+
+5==5? no js, sim;
+
+5==='5' chamado de IGUALDADE ESTRITA. tem o mesmo valor, mas NAO É IGUAL. o primeiro 5 nao ta entre aspas. ele eh identico? nao;
+
+5===5? sim;
+
+! = negacao;
+
+&& = conjuncao = e; so eh v se as duas forem verdadeiras. se tiver um F, eh falso;
+
+|| = disjuncao = ou; se um eh v, todos sao verdadeiros;
+
+! > && > || (ordem, prioridade, hierarquia);
+
+idade>=15 && idade<=17 - "a idade esta entre 15 e 17?"
+estado == rj || estado = sp - "o estado eh sp ou rj?"
+salario>1500 && sexo!= 'M' - "o salario eh maior que 1500 e nao eh homem, ou seja, eh mulher?"
+------------------------------------------
+ORDEM DE PRECEDENCIA (de cima para baixo)
+
+() ** /
+>  < >= 
+!
+&&
+||
+------------------------------------------
+TERNARIO
+
+"teste ? true : false"
+-------------------------------------------
+OPERADORES DE INCREMENTO E DECREMENTO
+-as vezes você desejará adicionar ou subtrair, repetidamente, um valor de uma variável numérica. Convenientemente isto pode ser feito usando os operadores 
+incremento ++ e decremento --.
+
+EX: n++ ou ++n = n+1;
+
+EX: var num1 = 4;
+num1++;
+-------------------------------------------
+CONCEITOS BASICOS PRA REVISAR
+- console.log ('oi') = vai aparecer oq vc colocou entre 'x'. agora caso vc queira interpolar variáveis, ou seja ...
+
+- console.log (`oi ${}`) = assim, qnd vc coloca CRASE, vc vai fazer a interpolacao de variaveis, ou seja, vc quer adicionar um texto e logo em seguida
+o valor de uma variavel, por exemplo, que voce criou. ou seja, vc esta INTERPOLANDO VARIAVEIS. Nesse caso, se utiliza crase para fazer isso.

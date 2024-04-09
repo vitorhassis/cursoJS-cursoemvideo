@@ -1,0 +1,43 @@
+ESTRUTURAS DE CONTROLE
+-------------------------------
+1-sequencia = desde o ponto A ate o B executa tarefas sequencialmente, tipo o exemplo abaixo de comer a fatia de pizza
+--------------------------------------
+2-condição = teste logico com duas possibilidades (verdade ou falso), IF e ELSE
+--------------------------------------
+3-REPETICOES/LAÇOS =  faz um looping e testa a condicao varias vezes, testando-a enquanto ela se manter verdadeira 
+*WHILE = ENQUANTO
+
+function comerpizza() {
+comerfatia()
+comerfatia() 
+comerfatia()
+comerfatia()        (1)
+comerfatia()
+comerfatia()
+comerfatia()
+}
+
+"enquanto algo for verdade" = while (condicao) e coloca um bloco - entre chaves - {
+
+
+} qnd ele executa esse bloco, ele volta e repete. caso ele deixe de ser verdadeiro, o fluxo é desviado pelo lado de fora;
+
+
+function comerpizza () {
+   while (temfatia() {             -ENQUANTO TER FATIA, ELE VAI REPETIR A AÇÃO OU SEJA, COMER A FATIA. NO MOMENTO EM QUE ACABAR AS FATIAS, ELE TERMINA A 
+       comerfatia()      (2)        FUNÇÃO DE COMER A PIZZA. NESSE CASO, INDEPENDE O TAMANHO DA PIZZA, SE FOREM 10 FATIAS, 50, 2000 FATIAS.. SEM PRECISAR   
+    }                               REPETINDO MIL VEZES A AÇÃO IGUAL NO EX DE CIMA. (primeiro testa, dps executa o bloco) - ESTRUTURA DE REPETICAO COM TESTE
+                                    LOGICO NO COMEÇO
+ 
+}
+
+
+
+
+3.1- "do" = FAÇA
+
+ do {                            -(aq ele primeiro executa o bloco, depois ele testa) - ESTRUTURA DE REPETICAO COM TESTE LOGICO NO FINAL
+
+
+}  while (condicao)
+--------------------------------------
