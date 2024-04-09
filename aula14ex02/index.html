@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<h1 id="txth1">Tabuada</h1>
+
+<body>
+    <section id="sec">
+        <div id="div">
+            <p>
+                Número: <input type="number" name="" id="txtn"> <input type="button" value="Gerar tabuada"
+                    onclick="tabuada()">
+            </p>
+        </div>
+        <div id="sel">
+            <select name="tabuada" id="seltab" size="10">
+                <option>Digite um número acima</option>
+                <!--- como dito, cada option q vc adiciona dentro do select, atua como uma linha la na pag. ent eh possivel fazer isso-->
+
+                <!---esse "size 10", eh para ja ficar aparecendo o espaco de 10 valores, sem precisar clicar. outro ponto aq, eh q vc poderia criar as options por aq. ex: <option value="v1"> valor1 </option>  <option value="v2"> valor2 </option> mas criamos direto la em js-->
+
+            </select>
+        </div>
+    </section>
+
+    <footer>
+        <p>criado por <a href="https://www.linkedin.com/in/vitor-assis-a365972b0/">Vitor Assis</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
