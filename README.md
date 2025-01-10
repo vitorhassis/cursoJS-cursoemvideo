@@ -2,7 +2,7 @@
 
 ###
 
-<p align="center">Materiais com exercícios e novos conhecimentos abordados durante todo o curso. Primeiro contato com JS. Foram utilizados também HTML CSS durante todo o trajeto.</p>
+<p align="center">-Materiais com exercícios e novos conhecimentos abordados durante todo o curso. Primeiro contato com JS. Foram utilizados também HTML CSS durante todo o trajeto;</p>
 
 ###
 
